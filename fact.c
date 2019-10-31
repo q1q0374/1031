@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int fact=1;
+	int i,n;
+	
+	printf("숫자입력");
+	scanf("%d",&n);
+	
+	for(i=n;i>=1;i--)
+	{
+		fact=fact*i;
+		printf("%d*",i);
+	} 
+	printf("\b\b=%d",fact);
+	
+	return 0;	
+	
+}
